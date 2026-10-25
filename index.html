@@ -19,47 +19,44 @@
     />
 
     
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
   </head>
   <body>
     <!-- =====================================================================
          1. Navigation
          ===================================================================== -->
-    <header class="site-header">
+    <header class="site-header" id="navigation">
       <div class="container nav-container">
-        <a href="#home" class="brand-logo" aria-label="IKU Homepage">IKU.</a>
+        <a href="#hero" class="brand-link" aria-label="IKU Portfolio Home">
+          IKU.<span class="brand-dot"></span>
+        </a>
 
-        <button
-          class="mobile-menu-toggle"
-          id="mobileMenuToggle"
-          aria-label="Toggle navigation menu"
-          aria-expanded="false"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-
-        <nav aria-label="Main Navigation">
-          <ul class="nav-links">
-            <li><a href="#home" class="nav-link active">Home</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#focus" class="nav-link">Planner</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
+        <nav>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#hero" class="nav-link">Home</a></li>
+            <li><a href="#about-preview" class="nav-link">About</a></li>
+            <li><a href="#featured-project" class="nav-link">Projects</a></li>
+            <li><a href="#academic-focus" class="nav-link active">Planner</a></li>
+            <li><a href="#contact-cta" class="nav-link">Contact</a></li>
           </ul>
         </nav>
 
-        <div class="nav-actions">
-          <a href="#contact" class="btn btn-dark">
-            Let's Connect <span class="arrow">→</span>
-          </a>
-        </div>
+        <button type="button" class="btn-pill btn-connect-action">
+          Let's Connect
+        </button>
+
+        <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
       </div>
     </header>
 
-    <!-- Main Content Flow -->
+    
     <main>
       <!-- ===================================================================
            2. Hero Section
@@ -84,17 +81,11 @@
                 <a href="#about" class="btn btn-secondary">About Me</a>
               </div>
             </div>
-
-            <div class="hero-visual">
-              <div class="hero-portrait-wrapper">
-                <img
-                  src="/assets/images/hero-portrait.png"
-                  alt="Ifeanyi Kalu Ukoha smiling against a warm terracotta arch background"
-                  class="hero-portrait-img"
-                  width="420"
-                  height="480"
-                />
-              </div>
+            <img
+                src="assets/img/8.png"
+                alt="Ifeanyi Kalu Ukoha smiling"
+                class="hero-portrait-img"
+            />
             </div>
           </div>
         </div>
@@ -118,7 +109,7 @@
             <article class="focus-card card">
               <div class="focus-icon-wrap">
                 <img
-                  src="/assets/images/icon-cs.png"
+                  src="/assets/img/computer.png"
                   alt="Computer monitor and keyboard icon"
                   width="64"
                   height="64"
@@ -134,7 +125,7 @@
             <article class="focus-card card">
               <div class="focus-icon-wrap">
                 <img
-                  src="/assets/images/icon-content.png"
+                  src="/assets/img/content.png"
                   alt="Video media player icon"
                   width="64"
                   height="64"
@@ -150,7 +141,7 @@
             <article class="focus-card card">
               <div class="focus-icon-wrap">
                 <img
-                  src="/assets/images/icon-research.png"
+                  src="/assets/img/writing.png"
                   alt="Research discussion bubble and keyboard icon"
                   width="64"
                   height="64"
@@ -196,7 +187,7 @@
 
             <div class="featured-visual">
               <img
-                src="/assets/images/project-starter-kit.png"
+                src="/assets/img/6.png"
                 alt="Nigerian Remote Job Starter Kit, ATS Friendly CV Template, and 30-Day Remote Job Action Plan book mockup"
                 class="featured-mockup-img"
                 width="380"
@@ -215,7 +206,7 @@
           <article class="about-card card">
             <div class="about-visual">
               <img
-                src="/assets/images/about-portrait.png"
+                src="/assets/img/7.png"
                 alt="Full-length portrait of Ifeanyi Kalu Ukoha in a soft pink dress"
                 class="about-portrait-img"
                 width="160"
@@ -278,10 +269,10 @@
             <h3 class="footer-heading">NAVIGATION</h3>
             <ul class="footer-list">
               <li><a href="#home" class="footer-link">Home</a></li>
-              <li><a href="#about" class="footer-link">About</a></li>
-              <li><a href="#projects" class="footer-link">Projects</a></li>
-              <li><a href="#focus" class="footer-link">Planner</a></li>
-              <li><a href="#contact" class="footer-link">Contact</a></li>
+              <li><a href="about.html" class="footer-link">About</a></li>
+              <li><a href="projects.html" class="footer-link">Projects</a></li>
+              <li><a href="planner.html" class="footer-link">Planner</a></li>
+              <li><a href="contact.html" class="footer-link">Contact</a></li>
             </ul>
           </div>
 
@@ -290,7 +281,7 @@
             <h3 class="footer-heading">CONNECT</h3>
             <ul class="footer-list">
               <li>
-                <a href="mailto:uzo4809@gmail.com" class="footer-link">
+                <a href="mailto:ifeanyikaluukoha1@gmail.com" class="footer-link">
                   <span class="footer-icon">✉</span> Email
                 </a>
               </li>
