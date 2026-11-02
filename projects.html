@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore My Projects - Ifeanyi Kalu Ukoha</title>
+    <meta
+      name="description"
+      content="A structured collection of digital product development, educational materials, graphic design, and practical explorations by Ifeanyi Kalu Ukoha."
+    />
+    <meta property="og:title" content="Explore My Projects - Ifeanyi Kalu Ukoha" />
+    <meta
+      property="og:description"
+      content="A structured collection of digital product development, educational materials, graphic design, and practical explorations by Ifeanyi Kalu Ukoha."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- =====================================================================
+         1. Navigation
+         ===================================================================== -->
+    <header class="site-header" id="siteHeader">
+      <div class="container nav-container">
+        <!-- Far-left: hamburger on mobile + brand logo -->
+        <div class="nav-brand-group">
+          <button
+            class="mobile-menu-toggle"
+            id="mobileMenuToggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="primaryNav"
+          >
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+          </button>
+
+          <a href="index.html" class="brand-logo" aria-label="IKU Homepage">
+            IKU<span class="brand-dot">•</span>
+          </a>
+        </div>
+
+        <!-- Backdrop for mobile drawer -->
+        <div class="nav-drawer-backdrop" id="navBackdrop" aria-hidden="true"></div>
+
+        <!-- Primary Navigation / Slide-out Drawer -->
+        <nav id="primaryNav" class="nav-drawer" aria-label="Main Navigation">
+          <div class="nav-drawer-header">
+            <span class="nav-drawer-title">IKU<span class="brand-dot">•</span></span>
+            <button class="nav-drawer-close" id="navDrawerClose" aria-label="Close navigation menu">&times;</button>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="projects.html" class="nav-link active">Projects</a></li>
+            <li><a href="planner.html" class="nav-link">Planner</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="nav-drawer-footer">
+            <a href="contact.html" class="btn btn-dark nav-mobile-cta">
+              Let's Connect <span class="arrow">→</span>
+            </a>
+          </div>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="contact.html" class="btn btn-dark">
+            Let's Connect
+          </a>
+        </div>
+      </div>
+    </header>
+
+    
+    <main>
+      <div class="container">
+        
+        <header class="projects-page-header">
+          <h1 class="projects-page-title">Explore My <span class="highlight">Projects.</span></h1>
+          <p class="projects-page-subtitle">
+            A structured collection of digital product development, educational materials, graphic design, and practical explorations. Each entry communicates its genuine purpose, actual contribution, and demonstrated learning.
+          </p>
+        </header>
+
+    
+        <section class="projects-featured-wrap">
+          <article class="featured-card card">
+            <div class="featured-content">
+              <h2 class="featured-project-title">Nigerian Remote Job Starter Kit</h2>
+              <p class="featured-project-desc">
+                A digital resource designed to help Nigerians prepare for remote job opportunities, with materials covering CVs, cover letters, interview preparation, and application tracking.
+              </p>
+
+              <div class="tags-list">
+                <span class="tag-badge">Career Strategy</span>
+                <span class="tag-badge">CV & Cover Letters</span>
+                <span class="tag-badge">Interview Prep</span>
+                <span class="tag-badge">Application Tracking</span>
+              </div>
+
+              <a href="#contact" class="btn btn-primary" data-project-id="starter-kit">
+                View Project <span class="arrow">→</span>
+              </a>
+            </div>
+
+            <div class="featured-visual">
+              <img
+                src="/assets/img/6.png"
+                alt="Nigerian Remote Job Starter Kit, ATS Friendly CV Template, and 30-Day Remote Job Action Plan book mockup"
+                class="featured-mockup-img"
+                width="380"
+                height="250"
+              />
+            </div>
+          </article>
+        </section>
+
+      
+        <section class="projects-2x2-grid" aria-label="Curated Projects">
+          <!-- Card 1 -->
+          <article class="project-grid-card">
+            <div class="project-card-top">
+              <span class="eyebrow">EDUCATIONAL GUIDES &amp; PUBLISHING</span>
+              <h2 class="project-grid-title">Digital Products and E-books</h2>
+              <p class="project-grid-desc">
+                Educational PDF materials, guides, and digital reference products developed to explain foundational concepts and study routines clearly.
+              </p>
+            </div>
+
+            <div class="project-card-visual-area">
+              <img
+                src="/assets/img/4.png"
+                alt="The I AM SOS Card, The Deliverance Reset, and The Disclosure Guide e-books"
+                class="project-card-visual"
+                width="229"
+                height="152"
+              />
+            </div>
+
+            <div class="project-card-bottom">
+              <button
+                type="button"
+                class="btn-subtle-pill project-modal-trigger"
+                data-project-id="ebooks"
+                aria-label="View Digital Products and E-books details"
+              >
+                VIEW PROJECT
+              </button>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="project-grid-card">
+            <div class="project-card-top">
+              <span class="eyebrow">VISUAL DESIGN &amp; MARKETING ASSETS</span>
+              <h2 class="project-grid-title">Graphic Design and Digital Content</h2>
+              <p class="project-grid-desc">
+                Promotional flyers, product mockups, typography lockups, and social media graphics designed for various campaigns, organizations, and brand initiatives.
+              </p>
+            </div>
+
+            <div class="project-card-visual-area">
+              <img
+                src="/assets/img/5.png"
+                alt="How To Lose Belly Fat After Pregnancy flyer"
+                class="project-card-visual"
+                width="154"
+                height="161"
+              />
+            </div>
+
+            <div class="project-card-bottom">
+              <button
+                type="button"
+                class="btn-subtle-pill project-modal-trigger"
+                data-project-id="graphics"
+                aria-label="View Graphic Design and Digital Content details"
+              >
+                VIEW PROJECT
+              </button>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="project-grid-card">
+            <div class="project-card-top">
+              <span class="eyebrow">PROMOTIONAL CONTENT &amp; AI PLATFORM</span>
+              <h2 class="project-grid-title">Ezine Learning</h2>
+              <p class="project-grid-desc">
+                Recruitment, marketing, and informational promotional materials developed for an AI-powered learning platform.
+              </p>
+            </div>
+
+            <div class="project-card-visual-area">
+              <img
+                src="/assets/img/2.png"
+                alt="Ezine Learning promotional website preview with personal AI professor hero"
+                class="project-card-visual"
+                width="223"
+                height="125"
+              />
+            </div>
+
+            <div class="project-card-bottom">
+              <button
+                type="button"
+                class="btn-subtle-pill project-modal-trigger"
+                data-project-id="ezine"
+                aria-label="View Ezine Learning project details"
+              >
+                VIEW PROJECT
+              </button>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="project-grid-card">
+            <div class="project-card-top">
+              <span class="eyebrow">COMMUNITY MEDIA &amp; FAITH FELLOWSHIP</span>
+              <h2 class="project-grid-title">When Friends Pray: One Accord</h2>
+              <p class="project-grid-desc">
+                Content creation, community communications, prayer schedules, promotional graphics, and social announcements for a Christ-centred prayer community.
+              </p>
+            </div>
+
+            <div class="project-card-visual-area">
+              <img
+                src="/assets/img/1.png"
+                alt="When Friends Pray One Accord circular emblem with cross, figures, and open bible"
+                class="project-card-visual prayer-visual"
+                width="116"
+                height="116"
+              />
+            </div>
+
+            <div class="project-card-bottom">
+              <button
+                type="button"
+                class="btn-subtle-pill project-modal-trigger"
+                data-project-id="prayer"
+                aria-label="View When Friends Pray project details"
+              >
+                VIEW PROJECT
+              </button>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    
+         <!-- Project Detail Interactive Modal
+       -->
+    <div class="project-modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="project-modal-content">
+        <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close project preview">&times;</button>
+        <span class="eyebrow" id="modalCategory">CATEGORY</span>
+        <h2 class="section-title" id="modalTitle">Project Title</h2>
+        <div class="modal-media-preview">
+          <img src="" alt="" id="modalImage" />
+        </div>
+        <p class="section-desc" id="modalDesc">Detailed project description.</p>
+      </div>
+    </div>
+
+         <!-- Shared Footer
+     -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <!-- Col 1: Brand & Bio -->
+          <div class="footer-brand">
+            <div class="footer-logo-line">
+              <span class="footer-logo">IKU.</span>
+              <span class="footer-fullname">Ifeanyi Kalu Ukoha</span>
+            </div>
+            <p class="footer-bio">
+              Computer Science Student · Miva Open University, exploring technology, digital creativity, and software craft through practical work.
+            </p>
+          </div>
+
+          <!-- Col 2: Navigation Links -->
+          <div class="footer-nav-col">
+            <h3 class="footer-heading">NAVIGATION</h3>
+            <ul class="footer-list">
+              <li><a href="index.html" class="footer-link">Home</a></li>
+              <li><a href="about.html" class="footer-link">About</a></li>
+              <li><a href="projects.html" class="footer-link">Projects</a></li>
+              <li><a href="planner.html" class="footer-link">Planner</a></li>
+              <li><a href="contact.html" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Connect -->
+          <div class="footer-connect-col">
+            <h3 class="footer-heading">CONNECT</h3>
+            <ul class="footer-list">
+              <li>
+                <a href="mailto:i.ukoha9685@miva.edu.ng" class="footer-link">
+                  <span class="footer-icon">✉</span> Email
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-link">
+                  <span class="footer-icon">&lt;&gt;</span> GitHub
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" class="footer-link">
+                  <span class="footer-icon">💬</span> Get in Touch
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-subtext">Computer Science student · Miva Open University.</div>
+          <div class="footer-copyright">© 2025/2026 Ifeanyi Kalu Ukoha. All rights reserved.</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Vanilla JavaScript Interaction -->
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>

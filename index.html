@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ifeanyi Kalu Ukoha - Portfolio Homepage</title>
+    <meta name="description" content="Portfolio homepage of Ifeanyi Kalu Ukoha, Computer Science student at Miva Open University, Nigeria." />
+    <meta property="og:title" content="Ifeanyi Kalu Ukoha - Portfolio Homepage" />
+    <meta property="og:description" content="Portfolio homepage of Ifeanyi Kalu Ukoha, Computer Science student at Miva Open University, Nigeria." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- =====================================================================
+         1. Navigation
+         ===================================================================== -->
+    <header class="site-header" id="siteHeader">
+      <div class="container nav-container">
+      
+        <div class="nav-brand-group">
+          <button
+            class="mobile-menu-toggle"
+            id="mobileMenuToggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="primaryNav"
+          >
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+          </button>
+
+          <a href="index.html" class="brand-logo" aria-label="IKU Homepage">
+            IKU<span class="brand-dot">•</span>
+          </a>
+        </div>
+
+        <!-- Backdrop for mobile drawer -->
+        <div class="nav-drawer-backdrop" id="navBackdrop" aria-hidden="true"></div>
+
+        
+        <nav id="primaryNav" class="nav-drawer" aria-label="Main Navigation">
+          <div class="nav-drawer-header">
+            <span class="nav-drawer-title">IKU<span class="brand-dot">•</span></span>
+            <button class="nav-drawer-close" id="navDrawerClose" aria-label="Close navigation menu">&times;</button>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="planner.html" class="nav-link">Planner</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="nav-drawer-footer">
+            <a href="contact.html" class="btn btn-dark nav-mobile-cta">
+              Let's Connect <span class="arrow">→</span>
+            </a>
+          </div>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="contact.html" class="btn btn-dark">
+            Let's Connect
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- main content flow -->
+    <main>
+      <!-- ===================================================================
+           2. Hero Section
+           =================================================================== -->
+      <section id="home" class="hero-section">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-content">
+              <h1 class="hero-headline">
+                Building My Path in<br class="hero-br" />
+                Technology Through<br class="hero-br" />
+                <span class="highlight">Practical Work.</span>
+              </h1>
+              <p class="hero-intro">
+                I'm Ifeanyi Kalu Ukoha, a Computer Science student at Miva Open
+                University, Nigeria. I enjoy solving problems, creating digital
+                resources, and exploring how technology can be used to build
+                useful things.
+              </p>
+              <div class="hero-actions">
+                <a href="projects.html" class="btn btn-primary">Explore My Projects</a>
+                <a href="about.html" class="btn btn-secondary">About Me</a>
+              </div>
+            </div>
+
+            <div class="hero-visual">
+              <div class="hero-portrait-wrapper">
+                <img
+                  src="/assets/img/8.png"
+                  alt="Ifeanyi Kalu Ukoha smiling against a warm terracotta arch background"
+                  class="hero-portrait-img"
+                  width="420"
+                  height="480"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           3. Academic & Technical Focus
+           =================================================================== -->
+      <section id="focus" class="focus-section">
+        <div class="container">
+          <div class="focus-header">
+            <span class="eyebrow">ACADEMIC & TECHNICAL FOCUS</span>
+            <h2 class="section-title">What I'm Exploring</h2>
+            <p class="section-desc">
+              Key focus areas guiding my university coursework, independent experiments, and digital resource creation.
+            </p>
+          </div>
+
+          <div class="focus-grid">
+            <!-- Card 1 -->
+            <article class="focus-card card">
+              <div class="focus-icon-wrap">
+                <img
+                  src="/assets/img/computer.png"
+                  alt="Computer monitor and keyboard icon"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <h3 class="focus-card-title">Computer Science & Web Development</h3>
+              <p class="focus-card-desc">
+                Studying fundamental computational concepts, semantic accessible web structure, responsive UI systems, and client-side web technologies.
+              </p>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="focus-card card">
+              <div class="focus-icon-wrap">
+                <img
+                  src="/assets/img/content.png"
+                  alt="Video media player icon"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <h3 class="focus-card-title">Digital Content & Educational Resources</h3>
+              <p class="focus-card-desc">
+                Designing clear educational guides, helpful starter kits, downloadable study materials, and practical workflow templates for learners.
+              </p>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="focus-card card">
+              <div class="focus-icon-wrap">
+                <img
+                  src="/assets/img/writing.png"
+                  alt="Research discussion bubble and keyboard icon"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <h3 class="focus-card-title">Research, Writing & Practical Problem-Solving</h3>
+              <p class="focus-card-desc">
+                Synthesizing technical literature into concise summaries, systematic academic inquiry, and practical step-by-step problem resolution.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           4. Featured Project
+           =================================================================== -->
+      <section id="projects" class="featured-section">
+        <div class="container">
+          <div class="featured-header">
+            <span class="eyebrow">FEATURED WORK</span>
+            <h2 class="section-title">A Project I'm Proud Of</h2>
+          </div>
+
+          <article class="featured-card card">
+            <div class="featured-content">
+              <h3 class="featured-project-title">Nigerian Remote Job Starter Kit</h3>
+              <p class="featured-project-desc">
+                A digital resource designed to help Nigerians prepare for remote job opportunities, with materials covering CVs, cover letters, interview preparation, and application tracking.
+              </p>
+
+              <div class="tags-list">
+                <span class="tag-badge">Career Strategy</span>
+                <span class="tag-badge">CV & Cover Letters</span>
+                <span class="tag-badge">Interview Prep</span>
+                <span class="tag-badge">Application Tracking</span>
+              </div>
+
+              <a href="#contact" class="btn btn-primary">
+                View Project <span class="arrow">→</span>
+              </a>
+            </div>
+
+            <div class="featured-visual">
+              <img
+                src="/assets/img/6.png"
+                alt="Nigerian Remote Job Starter Kit, ATS Friendly CV Template, and 30-Day Remote Job Action Plan book mockup"
+                class="featured-mockup-img"
+                width="380"
+                height="250"
+              />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           5. About Preview
+           =================================================================== -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <article class="about-card card">
+            <div class="about-visual">
+              <img
+                src="/assets/img/7.png"
+                alt="Full-length portrait of Ifeanyi Kalu Ukoha in a soft pink dress"
+                class="about-portrait-img"
+                width="160"
+                height="360"
+              />
+            </div>
+
+            <div class="about-content">
+              <span class="eyebrow">BA  CKGROUND & JOURNEY</span>
+              <h2 class="about-title">A Little About Me</h2>
+              <p class="about-desc">
+                I'm building my foundation in Computer Science while drawing on my interests in digital creativity, writing, and educational content. I want to keep developing my technical skills through practical projects and collaboration.
+              </p>
+              <a href="about.html" class="btn btn-primary">
+                More About Me <span class="arrow">→</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           6. Contact CTA
+           =================================================================== -->
+      <section id="contact" class="contact-cta-section">
+        <div class="container">
+          <div class="contact-card card">
+            <span class="eyebrow">GET IN TOUCH</span>
+            <h2 class="contact-title">Have an Opportunity to Discuss?</h2>
+            <p class="contact-desc">
+              I'm interested in connecting with people working in technology, learning from experienced professionals, and exploring relevant internships, projects, and collaborations.
+            </p>
+            <a href="mailto:i.ukoha9685@miva.edu.ng" class="btn btn-dark">
+              Let's Connect
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =====================================================================
+         7. Footer
+         ===================================================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <!-- Col 1: Brand & Bio -->
+          <div class="footer-brand">
+            <div class="footer-logo-line">
+              <span class="footer-logo">IKU.</span>
+              <span class="footer-fullname">Ifeanyi Kalu Ukoha</span>
+            </div>
+            <p class="footer-bio">
+              Computer Science Student · Miva Open University, exploring technology, digital creativity, and software craft through practical work.
+            </p>
+          </div>
+
+          <!-- Col 2: Navigation Links -->
+          <div class="footer-nav-col">
+            <h3 class="footer-heading">NAVIGATION</h3>
+            <ul class="footer-list">
+              <li><a href="index.html" class="footer-link">Home</a></li>
+              <li><a href="about.html" class="footer-link">About</a></li>
+              <li><a href="projects.html" class="footer-link">Projects</a></li>
+              <li><a href="planner.html" class="footer-link">Planner</a></li>
+              <li><a href="contact.html" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Connect -->
+          <div class="footer-connect-col">
+            <h3 class="footer-heading">CONNECT</h3>
+            <ul class="footer-list">
+              <li>
+                <a href="mailto:i.ukoha9685@miva.edu.ng" class="footer-link">
+                  <span class="footer-icon">✉</span> Email
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-link">
+                  <span class="footer-icon">&lt;&gt;</span> GitHub
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" class="footer-link">
+                  <span class="footer-icon">💬</span> Get in Touch
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-subtext">Computer Science student · Miva Open University.</div>
+          <div class="footer-copyright">© 2025-2026 Ifeanyi Kalu Ukoha. All rights reserved.</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Vanilla JavaScript Interaction -->
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>

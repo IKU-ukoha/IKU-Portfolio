@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's Connect - Ifeanyi Kalu Ukoha</title>
+    <meta
+      name="description"
+      content="I'm interested in connecting with people working in technology, exploring relevant opportunities, and collaborating on useful projects. If you'd like to discuss an internship, mentorship, or a potential collaboration, feel free to reach out."
+    />
+    <meta property="og:title" content="Let's Connect - Ifeanyi Kalu Ukoha" />
+    <meta
+      property="og:description"
+      content="I'm interested in connecting with people working in technology, exploring relevant opportunities, and collaborating on useful projects. If you'd like to discuss an internship, mentorship, or a potential collaboration, feel free to reach out."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- =====================================================================
+         1. Navigation
+         ===================================================================== -->
+    <header class="site-header" id="siteHeader">
+      <div class="container nav-container">
+        <!-- Far-left: hamburger on mobile + brand logo -->
+        <div class="nav-brand-group">
+          <button
+            class="mobile-menu-toggle"
+            id="mobileMenuToggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="primaryNav"
+          >
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+          </button>
+
+          <a href="index.html" class="brand-logo" aria-label="IKU Homepage">
+            IKU<span class="brand-dot">•</span>
+          </a>
+        </div>
+
+        <!-- Backdrop for mobile drawer -->
+        <div class="nav-drawer-backdrop" id="navBackdrop" aria-hidden="true"></div>
+
+        <!-- Primary Navigation / Slide-out Drawer -->
+        <nav id="primaryNav" class="nav-drawer" aria-label="Main Navigation">
+          <div class="nav-drawer-header">
+            <span class="nav-drawer-title">IKU<span class="brand-dot">•</span></span>
+            <button class="nav-drawer-close" id="navDrawerClose" aria-label="Close navigation menu">&times;</button>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="planner.html" class="nav-link">Planner</a></li>
+            <li><a href="contact.html" class="nav-link active">Contact</a></li>
+          </ul>
+          <div class="nav-drawer-footer">
+            <a href="contact.html" class="btn btn-dark nav-mobile-cta">
+              Let's Connect <span class="arrow">→</span>
+            </a>
+          </div>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="contact.html" class="btn btn-dark">
+            Let's Connect
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Flow -->
+    <main>
+      <div class="container">
+        <!-- =================================================================
+             2. Page Header
+             ================================================================= -->
+        <header class="contact-page-header">
+          <h1 class="contact-page-title">
+            Let's Connect<span class="highlight">.</span>
+          </h1>
+          <p class="contact-page-subtitle">
+            I'm interested in connecting with people working in technology, exploring relevant opportunities, and collaborating on useful projects. If you'd like to discuss an internship, mentorship, or a potential collaboration, feel free to reach out.
+          </p>
+        </header>
+
+        <!-- =================================================================
+             3. Contact Form Card
+             ================================================================= -->
+        <section class="contact-content-section" aria-label="Contact Form">
+          <div class="contact-form-card">
+            <h2 class="contact-form-heading">Send Me a Message</h2>
+            <div class="contact-card-divider" aria-hidden="true"></div>
+
+            <div class="contact-form-status" id="contactStatus" aria-live="polite"></div>
+
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="contact-form-group">
+                <label for="fullName" class="contact-label">
+                  Your Full Name <span class="required-star">*</span>
+                </label>
+                <input
+                  type="text"
+                  id="fullName"
+                  name="fullName"
+                  class="contact-input"
+                  placeholder="e.g., Dr. Ada Lovelace / Alex Morgan"
+                  required
+                />
+              </div>
+
+              <div class="contact-form-group">
+                <label for="email" class="contact-label">
+                  Email Address <span class="required-star">*</span>
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="contact-input"
+                  placeholder="e.g., alex@organization.com"
+                  required
+                />
+              </div>
+
+              <div class="contact-form-group">
+                <label for="phone" class="contact-label">
+                  Phone Number <span class="required-star">*</span>
+                </label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="contact-input"
+                  placeholder="e.g., +2348108085160 or 08108085160"
+                  required
+                />
+              </div>
+
+              <div class="contact-form-group">
+                <label for="enquiry" class="contact-label">
+                  Tell Me a Little About Your Enquiry <span class="required-star">*</span>
+                </label>
+                <textarea
+                  id="enquiry"
+                  name="enquiry"
+                  class="contact-textarea"
+                  rows="5"
+                  placeholder="Share a little context about your opportunity, project, or enquiry..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="contact-submit-btn" id="contactSubmitBtn">
+                Send Message <span class="arrow" aria-hidden="true">→</span>
+              </button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- =====================================================================
+         4. Shared Footer
+         ===================================================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <!-- Col 1: Brand & Bio -->
+          <div class="footer-brand">
+            <div class="footer-logo-line">
+              <span class="footer-logo">IKU.</span>
+              <span class="footer-fullname">Ifeanyi Kalu Ukoha</span>
+            </div>
+            <p class="footer-bio">
+              Computer Science Student · Miva Open University, exploring technology, digital creativity, and software craft through practical work.
+            </p>
+          </div>
+
+          <!-- Col 2: Navigation Links -->
+          <div class="footer-nav-col">
+            <h3 class="footer-heading">NAVIGATION</h3>
+            <ul class="footer-list">
+              <li><a href="index.html" class="footer-link">Home</a></li>
+              <li><a href="about.html" class="footer-link">About</a></li>
+              <li><a href="projects.html" class="footer-link">Projects</a></li>
+              <li><a href="planner.html" class="footer-link">Planner</a></li>
+              <li><a href="contact.html" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Connect -->
+          <div class="footer-connect-col">
+            <h3 class="footer-heading">CONNECT</h3>
+            <ul class="footer-list">
+              <li>
+                <a href="mailto:i.ukoha9685@miva.edu.ng" class="footer-link">
+                  <span class="footer-icon">✉</span> Email
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-link">
+                  <span class="footer-icon">&lt;&gt;</span> GitHub
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" class="footer-link">
+                  <span class="footer-icon">💬</span> Get in Touch
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-subtext">Computer Science student · Miva Open University.</div>
+          <div class="footer-copyright">© 2025/2026 Ifeanyi Kalu Ukoha. All rights reserved.</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Vanilla JavaScript Interaction -->
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
