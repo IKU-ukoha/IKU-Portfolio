@@ -140,25 +140,25 @@ document.addEventListener('DOMContentLoaded', () => {
       category: 'EDUCATIONAL GUIDES & PUBLISHING',
       title: 'Digital Products and E-books',
       desc: 'Educational PDF materials, guides, and digital reference products developed to explain foundational concepts and study routines clearly.',
-      img: '/assets/img/4.png'
+      img: 'assets/img/4.png'
     },
     graphics: {
       category: 'VISUAL DESIGN & MARKETING ASSETS',
       title: 'Graphic Design and Digital Content',
       desc: 'Promotional flyers, product mockups, typography lockups, and social media graphics designed for various campaigns, organizations, and brand initiatives.',
-      img: '/assets/img/5.png'
+      img: 'assets/img/5.png'
     },
     ezine: {
       category: 'PROMOTIONAL CONTENT & AI PLATFORM',
       title: 'Ezine Learning',
       desc: 'Recruitment, marketing, and informational promotional materials developed for an AI-powered learning platform.',
-      img: '/assets/img/2.png'
+      img: 'assets/img/2.png'
     },
     prayer: {
       category: 'COMMUNITY MEDIA & FAITH FELLOWSHIP',
       title: 'When Friends Pray: One Accord',
       desc: 'Content creation, community communications, prayer schedules, promotional graphics, and social announcements for a Christ-centred prayer community.',
-      img: '/assets/img/1.png'
+      img: 'assets/img/1.png'
     }
   };
 
