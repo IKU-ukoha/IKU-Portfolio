@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
       category: 'FEATURED WORK',
       title: 'Nigerian Remote Job Starter Kit',
       desc: 'A digital resource designed to help Nigerians prepare for remote job opportunities, with materials covering CVs, cover letters, interview preparation, and application tracking.',
-      img: '/assets/img/6.png'
+      img: '../assets/img/6.png'
     },
     ebooks: {
       category: 'EDUCATIONAL GUIDES & PUBLISHING',
